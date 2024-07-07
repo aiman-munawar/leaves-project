@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+body #main{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#main #page1{
+    width: 100%;
+    height: 100%;
+    background-color:#049562 ;
+    padding: 0.1px;
+}
+#page1 #content{
+    width: 80%;
+    height: 70%;
+    background-color:#024b32 ;
+    margin-top: 6vw;
+    margin-left: 10vw;
+    box-shadow:1vw 1vw 4vw #012b1c;
+    position:relative;
+}
+#page1 button{
+     width: 40%;
+     height: 11%;
+     margin-left: 24vw;
+     margin-top: 2vw;
+     border-radius: 2vw;
+     font-size: 1.3vw;
+     background-color: #018358;
+     border: none;
+     box-shadow:0.4vw 0.4vw 1vw #01281b;
+     color: white;
+}
+
+#content #time{
+    width: 20%;
+    height: 20%;
+    background-color: #024b32 ;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    margin-top: 2vw;
+}
+#time h5{
+    color: white;
+    font-size: 1.6vw;
+}
+#time h1{
+    font-size: 2.4vw;
+    color: white;
+    
+}
+#content #date{
+    width: 25%;
+    height: 20%;
+    background-color: #024b32;
+    position: absolute;
+    left: 55vw;
+    top: 7vw;
+}
+#date  h4{
+    font-size: 1.5vw;
+    color: white;
+}
+#date  h2{
+    font-size: 2vw;
+    padding-left: 3vw;
+    padding-top: 0.3vw;
+    color: white;
+}
+#content #circle{
+    width: 0.7vw;
+    height: 0.7vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 60.2vw;
+    top: 9vw;
+    border: 0.2vw solid white;
+}
+#content #image{
+    width: 28%;
+    height: 55%;
+    /* background-color: purple; */
+    position: absolute;
+    left: 29vw;
+    top: 10vw;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+    box-shadow:1vw 1vw 2vw #010907;
+}
+#main #page2{
+    width: 100%;
+    height: 100%;
+    background-image: url(backimg.jpg);
+    padding: 0.1px;
+   display: none;
+}
+
+#page2 #glasspage{
+    width: 70%;
+    height: 70%;
+    box-shadow: 0 0 4px 0;
+    backdrop-filter: blur(10px);
+    margin-top: 7vw;
+    margin-left: 15vw
+
+}
+#glasspage h2{
+    padding-left: 34vw;
+    padding-top: 7vw;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.5px white;
+    color: transparent;
+}
+#page2 h1{
+    padding-left: 15vw;
+    padding-top: 0.4vw;
+    font-size: 4vw;
+    color: white;
+}
+#glasspage button{
+    width: 8vw;
+    height: 4vw;
+    margin-left: 30vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+    border: 0;
+    font-size: 1.4vw;
+    color: white;
+    background-color: #012418;
+}
+#main #page3{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+   display: flex;
+   display: none;
+}
+#page3 #left{
+     width: 50%;
+    height: 100%;
+    background-image: url(pinleaves.jpg);
+    object-fit: cover;
+    position: relative;
+}
+#page3 #right{
+    width: 50%;
+    height: 100%;   
+    background-color: #012418;
+     position: relative;
+}
+#right #img{
+    width: 20%;
+    height: 15%;
+    background-color: #012418;
+    position: absolute;
+    right: 79%;
+    top: 1vw;
+    /* box-shadow:1vw 1vw 1vw #08bd81; */
+    /* transform: rotate(90deg); */
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 2vw; */
+    border: 0;
+    /* box-shadow:1vw 1vw 1vw #01130d; */
+    
+}
+#right #img1{
+    width: 10%;
+    height: 7%;
+    background-color: #012418;
+    /* transform: rotate(86deg); */
+    position: absolute;
+    right: 92%;
+    top: 1vw;
+}
+#img1 img{
+    width: 100%;
+    height: 100%;
+}
+#right #text{
+    width: 40%;
+    height: 20%;
+    background-color: #012418;
+    position: absolute;
+    top: 20vw;
+     right:53% ;
+}
+#right #text1{
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 20vw;
+     right:98% ;
+}
+#text1 h1{
+    font-size: 5vw;
+   color: white;
+}
+#text h1{
+    font-size: 5vw;
+    background-image: url(backimg.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+}
